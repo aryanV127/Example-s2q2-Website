@@ -13,7 +13,10 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Column(
         children: [
-          Container(child: Image.asset('assets/images/b2.png')),
+          Container(
+            child: Image.asset('assets/images/b2.png'),
+          ),
+          Text('Hi aryan'),
         ],
       ),
     );
